@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2fac3387-06c5-4108-afab-01067c06492a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-request.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/1-request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/2_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-urlencode.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/3-urlencode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4-get.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/4-get.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5-create_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/5-create_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study/a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/study/b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/study/baidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/中国.html" beforeDir="false" afterPath="$PROJECT_DIR$/study/中国.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/1-post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="294">
               <caret line="15" selection-start-line="14" selection-start-column="4" selection-end-line="15" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -47,11 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/2-post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
+            <state relative-caret-position="105">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#6#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/3-ajax-get.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="147">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -123,7 +111,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="y" value="27" />
+    <option name="y" value="26" />
     <option name="width" value="1940" />
     <option name="height" value="1035" />
   </component>
@@ -133,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +143,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,22 +303,24 @@
       <option name="presentableId" value="Default" />
       <updated>1554984779543</updated>
       <workItem from="1554984780931" duration="8186000" />
-      <workItem from="1555229535640" duration="10170000" />
+      <workItem from="1555229535640" duration="10457000" />
+      <workItem from="1555289628702" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18356000" />
+    <option name="totallyTimeSpent" value="18686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1552" height="828" extended-state="0" />
+    <frame x="-8" y="21" width="1552" height="828" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25635877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4119403" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4119403" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,50 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day02/3-ajax-get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/2-post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study/2_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/3-ajax-get.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/1-post.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="15" selection-start-line="14" selection-start-column="4" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/day02/3-ajax-get.py" />
     <entry file="file://$PROJECT_DIR$/post/python/python_2.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -470,6 +417,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post/python/python_1.html">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/1-post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" selection-start-line="14" selection-start-column="4" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/2-post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post/3-ajax-get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/2_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post/4-tieba.py">
       <provider selected="true" editor-type-id="text-editor">
