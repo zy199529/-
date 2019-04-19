@@ -1,22 +1,7 @@
 # -*- coding:UTF-8 -*-
 import csv
 
-import numpy as np
-
-
-def SGD(X, Y, w, eta, iteration, lambdaL2):
-    list_cost = []
-    for i in range(iteration):
-        hypo = np.dot(X,w)
-        loss = hypo - Y
-        cost = np.sum(loss**2)/len(X)
-        list_cost.append(cost)
-
-        rand = np.random.randint(0, len(X))
-        grad = X[rand]*loss[rand]/len(X) + lambdaL2*w
-        w = w - eta*grad
-    return w, list_cost
-
+from linear import *
 
 if __name__ == '__main__':
     data = []
@@ -79,15 +64,19 @@ if __name__ == '__main__':
     ans_y = np.array(list(map(int, ans_y)))
     test_x = np.concatenate((np.ones((test_x.shape[0], 1)), test_x), axis=1)
     trainX = np.concatenate((np.ones((trainX.shape[0], 1)), trainX), axis=1)
-    # print(trainX)
+    classify = linear()
+    print("start")
     w = np.zeros(len(trainX[0]))  # 162种
-    w_gd, cost_list_gd = SGD(trainX, trainY, w, eta=0.0001, iteration=20000, lambdaL2=0)
-    y_gd = np.dot(test_x, w_gd)
+    w, loss_list = classify.SGD(trainX, trainY, w, eta=0.0001, iteration=20000, lambdaL2=0)
+
+    print("end")
+    y_gd = classify.predict(test_x, w)
+    print(y_gd)
 
     ans = []
     for i in range(len(test_x)):
         ans.append(["id" + str(i)])
-        a = np.dot(w_gd, test_x[i])
+        a = np.dot(w, test_x[i])
         ans[i].append(a)
     filename = "./data/predict.csv"
     text = open(filename, "w+")
