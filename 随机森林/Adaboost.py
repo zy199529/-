@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # @Author: zy19950209
 # @Date:   2019-05-31 12:01:31
-# @Last Modified by:   zy19950209
-# @Last Modified time: 2019-05-31 14:45:42
+# @Last Modified by:   Lenovo
+# @Last Modified time: 2019-06-25 13:21:30
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author: zy19950209
@@ -37,13 +37,13 @@ X = train.drop(['Survived'], axis=1).values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 print("X_train_shape:", X_train.shape, " y_train_shape:", y_train.shape)
 print("X_test_shape:", X_test.shape, "  y_test_shape:", y_test.shape)
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import make_scorer, accuracy_score
-from sklearn.model_selection import GridSearchCV
-from sklearn import tree
-clf = AdaBoostClassifier(DecisionTreeClassifier(max_depth=2, min_samples_split=20,
-                                                min_samples_leaf=5), algorithm='SAMME', n_estimators=200, learning_rate=0.8)
-clf.fit(X_train, y_train)
-print(clf.score(X_train, y_train))
-print(clf.score(X_test, y_test))
+# from sklearn.ensemble import AdaBoostClassifier
+# from sklearn.tree import DecisionTreeClassifier
+# from sklearn.metrics import make_scorer, accuracy_score
+# from sklearn.model_selection import GridSearchCV
+# from sklearn import tree
+# clf = AdaBoostClassifier(DecisionTreeClassifier(max_depth=2, min_samples_split=20,
+#                                                 min_samples_leaf=5), algorithm='SAMME', n_estimators=200, learning_rate=0.8)
+# clf.fit(X_train, y_train)
+# print(clf.score(X_train, y_train))
+# print(clf.score(X_test, y_test))
